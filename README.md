@@ -1,7 +1,7 @@
 A script designed to automate the installation process of Yersinia on Kali Linux, since the repository version is buggy and doesn't work after installation due to issues with gtk.
 
 The script performs the following operations:
-- Asks the user for a directory path in order to clone Yersinia from its Gihtub repository.
+- Asks the user for a directory path in order to clone Yersinia from its Github repository.
 - Clones Yersinia from its Github repository.
 - Installs the dependencies required for Yersinia to run.
 - Configures and installs Yersinia on the user's system.
