@@ -5,7 +5,6 @@ The script performs the following operations:
 - Clones Yersinia from its Github repository.
 - Installs the dependencies required for Yersinia to run.
 - Configures and installs Yersinia on the user's system.
-- Reboots the system in order for the changes to take effect.
 
 <b>Full Script Run:</b>
 
