@@ -9,7 +9,8 @@ The script performs the following operations:
 
 <b>Full Script Run:</b>
 
-![1](https://github.com/user-attachments/assets/202100b4-81c0-4e21-964a-dceba58e8291)
+![1](https://github.com/user-attachments/assets/32b6057f-36a4-4a67-86fc-c7b3d94618d5)
+
 
 <b>Yersinia Working Properly:</b>
 
