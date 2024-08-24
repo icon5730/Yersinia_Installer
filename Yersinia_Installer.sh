@@ -46,12 +46,10 @@ privileges(){
         exit 1
     fi
 
-    printf "$yellow"
+    printf "$red"
     figlet -f small "Yersinia Installer"
     printf "$endcolor"
 
-    echo -e "${red}[!] NOTE:${endcolor}${magenta} This script concludes installation with a system reboot \n${endcolor}${green}[+] Make sure to save all important data before running this script${endcolor}\n"
-    sleep 0.5  
 }
 
 
@@ -76,20 +74,7 @@ if [ ! -z $yerpath ]
     make &>/dev/null
     make install &>/dev/null
     progress_bar 30
-    echo -e "\n${green}[*] Installation complete${endcolor}" 
-    sleep 0.5
-    echo -e "${red}[!] REBOOTING SYSTEM IN...${endcolor}"
-    echo -e "${yellow}5...${endcolor}"
-    sleep 1
-    echo -e "${yellow}4...${endcolor}"
-    sleep 1
-    echo -e "${yellow}3...${endcolor}"
-    sleep 1
-    echo -e "${yellow}2...${endcolor}"
-    sleep 1
-    echo -e "${yellow}1...${endcolor}"
-    sleep 1         
-    reboot now
+    echo -e "\n${green}[!] Installation complete${endcolor}"
     else
     echo -e "${red}[!] No path was specified${endcolor}"
     sleep 0.5 ; installation
