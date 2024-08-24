@@ -65,11 +65,11 @@ if [ ! -z $yerpath ]
     echo -e "${cyan}[+]${endcolor}${blue} Yersinia will be cloned into ${endcolor}${magenta}$yerpath${endcolor}"
     git clone https://github.com/tomac/yersinia $yerpath &>/dev/null
     progress_bar 10
-    echo -e "${cyan}[!]${endcolor}${green} Cloning complete${endcolor}" 
+    echo -e "${cyan}[!]${endcolor}${green} Cloning complete${endcolor}"  ; sleep 0.3
     echo -e "${cyan}[+]${endcolor}${blue} Installing dependencies...${endcolor}"
     apt install autoconf libgtk-3-dev libnet1-dev libgtk2.0-dev libpcap-dev -y &>/dev/null
     progress_bar 20
-    echo -e "${cyan}[!]${endcolor}${green} Dependency installation complete${endcolor}"
+    echo -e "${cyan}[!]${endcolor}${green} Dependency installation complete${endcolor}" ; sleep 0.3
     echo -e "${cyan}[+]${endcolor}${blue} Configuring and installing Yersinia...${endcolor}"
     cd $yerpath
     ./autogen.sh &>/dev/null
