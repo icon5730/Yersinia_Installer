@@ -8,8 +8,7 @@ The script performs the following operations:
 
 <b>Full Script Run:</b>
 
-![1](https://github.com/user-attachments/assets/32b6057f-36a4-4a67-86fc-c7b3d94618d5)
-
+![1](https://github.com/user-attachments/assets/633786df-20ce-4303-a4cb-d6d32c3cb9e2)
 
 <b>Yersinia Working Properly:</b>
 
